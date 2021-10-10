@@ -38,9 +38,6 @@ a{
    width: 100%; /* Full width */
    transition: .6s ease; /* Add a transition effect (when scrolling - and font size is decreased) */
 }
-
-
-
 header .container{
   display: flex;
   align-items: center;
@@ -93,18 +90,15 @@ header nav a:hover{
   align-items: flex-start;
 
 }
-
 .filme-principal .container{
    padding: 0 5%;
 }
-
 .filme-principal .descricao{
    margin-top: 15px;
    margin-bottom: 40px;
    max-width: 550px;
    font-size: 1.15em;  
 }
-
 .title{
    font-size: 40px;
    font-weight: 700;
@@ -115,6 +109,7 @@ header nav a:hover{
 /*buttons*/
 .btn{
    border: none;
+   border-radius: 5px;
 
    padding: 9px 27px 9px 22px;
    margin-right: 12px;
@@ -124,11 +119,9 @@ header nav a:hover{
    cursor: pointer;
    
 }
-
 .btn i{
    margin-right: 8px;
 }
-
 .btn:hover{
    background-color: rgba(26, 26, 26, 0.582);
    color: #E50914;
@@ -147,3 +140,27 @@ header nav a:hover{
 
 
 /*catálogo*/
+.item{
+   height: 240px;
+   object-position: center;
+   object-fit: cover;
+}
+
+.owl-carousel{
+   padding:0 55px;   
+}
+
+.owl-prev{
+   left: 10px;
+}
+.owl-next{
+   right: 10px;
+}
+.owl-prev, .owl-next{
+   position: absolute;
+   top:40px;
+}
+.owl-prev span, .owl-next span{
+   font-size: 90px;
+   color: var(--branco);
+}

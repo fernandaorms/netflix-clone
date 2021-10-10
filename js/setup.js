@@ -1,23 +1,38 @@
 $('.owl-carousel').owlCarousel({
-   stagePadding: 50,
-   loop:true,
-   margin:10,
-   nav:false,
-   responsive:{
-       0:{
-           items:1
-       },
-       400:{
-           items:2
-       },
-       600:{
-         items:3
+   loop: true,
+   stagePadding:50,
+   margin: 10,
+   nav:true,
+   slideTransition: 'ease',
+   responsive: {
+      0:{
+         items: 1,
+         stagePadding: 30
       },
-      800:{
-         items:4
+      400:{
+         items:1,
+         stagePadding:50
       },
-       1000:{
-           items:5
-       }
+      600:{
+         items:2,
+         slideBy: 2
+      },
+      820:{
+         items:3,
+         slideBy: 3
+      },
+      1100:{
+         center:true,
+         items:4,
+         slideBy:4
+      },
+      1400:{
+         items:5,
+         slideBy:5
+      },
+      2000:{
+         items:6,
+         slideBy: 6
+      }
    }
 });

@@ -12,4 +12,15 @@
       display: none;
    }
 
+   .buttons{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: auto;
+   }
+
+   .buttons .btn{
+      margin-bottom: 20px;
+      transition: .5 ease;
+   }
 }
