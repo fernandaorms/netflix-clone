@@ -40,7 +40,56 @@ header .container{
   padding: 15px 58px;
 
   background: transparent;
+
+  
 }
+
+.bar{
+   display: flex;
+   position: absolute;
+   right: 0;
+   margin-right: 58px;
+}
+
+.bar i{
+   align-self: center;
+}
+.bar .avatar{
+   width: 40px;
+   height: 40px;
+   background-image: url(../img/avatar.jpg);
+   background-size: contain;
+   border-radius: 5px;
+}
+
+#sino{
+   font-size: 25px;
+   margin: 0 30px 0 20px;
+}
+
+
+#lupa{
+   margin-right: 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+#search{
+   height: 30px;
+   align-self: center;
+  
+   background: var(--preto);
+   color: var(--branco);
+   padding: 0px 30px 0 5px;
+  
+   border: 1px solid var(--branco);
+   
+   display: none;
+   opacity: 0;
+   visibility: hidden;
+
+}
+
 
 header .logo{
   font-family: 'Bebas Neue', cursive;
