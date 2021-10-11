@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 420px){
    
-   #sino, .avatar{
+   #sino{
       display: none;
    }
    
